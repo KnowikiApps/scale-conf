@@ -60,6 +60,11 @@ Drawer {
             onClicked: NavHelper.nav_tray_push("qrc:/pages/SpecialEvents/SpecialEvents.qml")
         }
         NavButton{
+            id: floorplans
+            text: "Floorplans"
+            onClicked: NavHelper.nav_tray_push("qrc:/pages/Floorplans/Floorplans.qml")
+        }
+        NavButton{
             id: qrScan
             text: "Scan Badge QR Code"
             onClicked: NavHelper.nav_tray_push("qrc:/pages/QrScan/QrScan.qml")
