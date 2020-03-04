@@ -63,5 +63,10 @@ Drawer {
             buttonText: "Campus Map"
             onClicked: NavHelper.nav_tray_push("qrc:/pages/CampusMap/CampusMap.qml")
         }
+        NavButton{
+            id: search
+            buttonText: "Search"
+            onClicked: NavHelper.nav_tray_push("qrc:/pages/Search/Search.qml")
+        }
     }
 }

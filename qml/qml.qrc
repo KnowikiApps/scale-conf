@@ -28,5 +28,7 @@
         <file>pages/Speakers/IndividualSpeaker.qml</file>
         <file>pages/Schedule/SignModel.qml</file>
         <file>pages/CampusMap/CampusMap.qml</file>
+        <file>pages/Search/Search.qml</file>
+        <file>pages/Search/SearchModel.qml</file>
     </qresource>
 </RCC>

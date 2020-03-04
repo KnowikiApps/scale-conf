@@ -32,3 +32,10 @@ function randomNumber(min, max){
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
+function searchText(terms, str){
+    var src = terms.replace(/ /gi, '|');
+    var rgx = new RegExp(src, 'i');
+    console.log("searching for", src,"in", str,"with", rgx, str.search(rgx));
+    return str.search(rgx) > -1;
+}
+
